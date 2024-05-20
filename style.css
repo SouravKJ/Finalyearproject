@@ -354,8 +354,12 @@ img:hover{
     cursor: pointer;}
 .quotefamous:hover{transform: scale(1.1);
     transition: ease-in-out 1s;}
+@media only Screen and (min-width:448px) {
+    header{background-image: url(bgimg2.jpg);
+    }
+}
 @media only screen and (max-width:600px){
-    header {background-image: url(bgimg1.jpg);
+    header {background-image: url(bgimg2.jpg);
         background-size: cover;}
     .logsign{opacity: 0;}
     .quotemain{height: 20rem;}
