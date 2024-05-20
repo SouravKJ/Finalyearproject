@@ -329,6 +329,7 @@ input[placeholder]{
     translate: 0px -5px;
     position: static;
     bottom: 5px;
+    opacity: 1;
 
 }
 .bxl-instagram{
@@ -423,7 +424,7 @@ img:hover{
         translate: 0px 15px;
         margin-bottom:1%;
     }
-    
+    .name{text-align: center;}
 
 }
 @media only screen and (max-width: 600px) {
@@ -445,13 +446,22 @@ img:hover{
     img:hover{
         transform: scale(1.1);
     }
+    .name{text-align: center;}
+    .disease{
+        display: flex;
+        column-gap: 20px;
+    }
     .quotefamous:hover{transform: scale(1.1);}
 }
 
   @media only screen and (min-width: 1000px) {
    
     .logsign{opacity: 1;}
-
+    .social{opacity: 1;}
+    .search1{
+        width: 70%;
+        justify-items: center;
+    }
   } 
   @media only screen and (max-width: 780px) {
    
