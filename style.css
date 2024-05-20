@@ -105,17 +105,15 @@ header{
     
     font-family: system-ui;
     font-weight: bold;
-    font-size: 40px;
+    font-size: xx-large;
     color: #9e9e9e;
     display: flex;
     height: 10vh;
     margin: 10% 0 0 10%;
-
+    transform: translateY(-30%);
     
 }
 .emoji{
-   
-    font-size: 40px;
     transform-origin: bottom center;
     animation: move 2s infinite;
 }
@@ -144,10 +142,11 @@ header{
 }
 
 .welcome{
-    font-size: 50px;
+    font-size: xxx-large;
     padding-left: 10%;
     margin-top: -2%;
     font-weight: bolder;
+    transform: translateY(20%);
 }
 .bx-search-alt{
     font-size: 30px;
@@ -366,9 +365,12 @@ img:hover{
         background-size: cover;}
     .logsign{opacity: 0;}
     .quotemain{height: 20rem;}
-    .intro{font-size: x-large;}
-    .emoji{font-size: 30px;}
-    .welcome{font-size: xx-large;}
+    .intro{font-size: x-large;
+        transform: translateY(8%);
+        }
+    
+    .welcome{font-size: xx-large;
+        transform: translateY(20%);}
     .search1{
         margin:2% 0% 3% 3%;
         width: 90%;
