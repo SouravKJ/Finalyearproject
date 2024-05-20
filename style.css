@@ -357,6 +357,8 @@ img:hover{
 @media only Screen and (min-width:448px) {
     header{background-image: url(bgimg2.jpg);
     }
+    .social{opacity: 0;}
+    .search1{width: 190%;}
 }
 @media only screen and (max-width:600px){
     header {background-image: url(bgimg2.jpg);
@@ -431,8 +433,8 @@ img:hover{
     .start1{margin: 2% 0% 0% 1%;
     text-align:left;}
     .search1 {
-        margin: 4% 0% 3% -17%;
-        width: 135%;
+        margin: 4% 0% 3% -30%;
+        width: 165%;
     }
     .social {
         margin-top: 5%;
