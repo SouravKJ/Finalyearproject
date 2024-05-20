@@ -439,6 +439,7 @@ img:hover{
     .social {
         margin-top: 5%;
         translate: 0px;
+        opacity: 0;
         margin-bottom: 1%;
     }
     img:hover{
